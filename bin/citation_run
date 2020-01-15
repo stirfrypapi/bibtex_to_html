@@ -1,0 +1,23 @@
+#!/bin/bash
+# insta485run
+#
+# Runs the flask server
+# Raymond Pang <pangr@umich.edu>
+set -Eeuo pipefail
+
+#Set FLASK_DEBUG, FLASK_APP and CITATION_SETTINGS environment variables
+echo "+ export FLASK_DEBUG=True"
+export FLASK_DEBUG=True
+echo "+ FLASK_DEBUG=True"
+FLASK_DEBUG=True
+echo "+ export FLASK_APP=citation"
+export FLASK_APP=citation
+echo "+ FLASK_APP=citation"
+FLASK_APP=citation
+echo "+ export CITATION_SETTINGS=config.py"
+export CITATION_SETTINGS=config.py
+echo "+ CITATION_SETTINGS=config.py"
+CITATION_SETTINGS=config.py
+
+#Run the development server on port 8000
+flask run --host 0.0.0.0 --port 8000
