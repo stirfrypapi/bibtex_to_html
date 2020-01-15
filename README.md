@@ -19,6 +19,14 @@ Make sure to activate the script first with
 chmod +x bin/citation_run
 
 
+### About the Code
+
+/citation/ is a Python package.
+HTML templates are in /citation/templates.
+Citations are in /citation/static/citations.bib
+Flask routes are in /citation/views/index.py
+
+
 ### TODO:
 
 Formatting is currently in Flask/Jinja syntax. Final version should be in
