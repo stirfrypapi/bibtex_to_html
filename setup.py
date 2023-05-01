@@ -14,7 +14,7 @@ setup(
         'arrow==0.15.1',
         'bibtexparser==1.0.1',
         'bs4==0.0.1',
-        'Flask==1.1.1',
+        'Flask==2.3.2',
         'html5validator==0.3.1',
         'pycodestyle==2.5.0',
         'pydocstyle==4.0.1',
